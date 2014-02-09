@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /var/mobile/Media/PocketMine-MP
+./installer.sh -d
