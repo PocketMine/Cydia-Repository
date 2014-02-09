@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: PocketMine Team <support@pocketmine.net>
 Replaces: php
 Filename: ./net.pocketmine.php-5.5.deb
-Size: 3041858
-MD5sum: 90aaa4c645bda0a1063d8e4221e2c1f3
-SHA1: 47ddd580ccdf87c4e6c290f2bc7933c3513ce7bc
-SHA256: 20af674efbadc81caff3e3372c15fa7abd32b6fa51fb7855225a70984ba52a4f
+Size: 3041926
+MD5sum: a88c7d8c8b57b36f705dc032415b472e
+SHA1: 94e9833c3842144182ec1e0940a18411b638c020
+SHA256: 89362a2ce2f81f8ee623db69623390ad1cdffad13454a845b43fc5d02d803ec5
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: PHP binaries for PocketMine
@@ -20,16 +20,17 @@ Version: 1.3.12dev
 Architecture: iphoneos-arm
 Maintainer: PocketMine Team <support@pocketmine.net>
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
-Depends: net.pocketmine.php-5.5
+Depends: net.pocketmine.php-5.5, screen
 Filename: ./net.pocketmine.server.deb
-Size: 1612
-MD5sum: 3a02dde98ddd97c3c825f3258a2679ec
-SHA1: 202a1428a88bf7b73ad637dbf444a89450e8acc3
-SHA256: 59c45662df05d1e7efaff9c8a659de9b4d9b90ebfdf86d5e3c6e1ac728180cac
+Size: 1634
+MD5sum: e4779966aa1981db9fe1428a53b1544e
+SHA1: 5370e1345840c03e603b4057acbbe16c38a83b6c
+SHA256: a7db1fdec5ce6779a74802f40fa8662104837f79f1d1ba69ecadb9336e77b7df
 Section: Utilities
 Homepage: http://www.pocketmine.net/
 Description: PocketMine-MP for iOS
 Tag: purpose::console
 Author: PocketMine Team <support@pocketmine.net>
+Icon: http://cydia.pocketmine.net/CydiaIcon.png
 Name: PocketMine-MP for iOS
 
