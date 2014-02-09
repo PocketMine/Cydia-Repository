@@ -38,7 +38,7 @@ if [ "$PMMP_VERSION" == "" ]; then
 	fi
 fi
 
-echo "[INFO] PocketMine-MP $PMMP_VERSION dinstaller"
+echo "[INFO] PocketMine-MP $PMMP_VERSION installer"
 
 echo "[1/2] Cleaning..."
 rm -r -f src/
