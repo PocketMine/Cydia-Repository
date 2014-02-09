@@ -3,10 +3,11 @@ Name: PocketMine-MP for iOS
 Version: 1.3.12dev
 Architecture: iphoneos-arm
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
-Depends: net.pocketmine.php-5.5
+Depends: net.pocketmine.php-5.5, screen
 Description: PocketMine-MP for iOS
 Homepage: http://www.pocketmine.net/
 Maintainer: PocketMine Team <support@pocketmine.net>
 Author: PocketMine Team <support@pocketmine.net>
 Section: Utilities
+Icon: http://cydia.pocketmine.net/CydiaIcon.png
 Tag: purpose::console

@@ -6,3 +6,4 @@ Codename: stable
 Architectures: iphoneos-arm
 Components: main
 Description: Repository that contains binaries needed by PocketMine-MP to run
+Icon: http://cydia.pocketmine.net/CydiaIcon.png
