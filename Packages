@@ -22,10 +22,10 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5
 Filename: ./net.pocketmine.server.deb
-Size: 1594
-MD5sum: afc6e98f2eff23fd35f1291cd31329c0
-SHA1: f95e8cd2f97d8543251e270eb47bd6cdbca92a0a
-SHA256: 64aebdc98a193691287e04fc7883028d5a9f1c5aee7f815244aae68ae5bdfa65
+Size: 1612
+MD5sum: 3a02dde98ddd97c3c825f3258a2679ec
+SHA1: 202a1428a88bf7b73ad637dbf444a89450e8acc3
+SHA256: 59c45662df05d1e7efaff9c8a659de9b4d9b90ebfdf86d5e3c6e1ac728180cac
 Section: Utilities
 Homepage: http://www.pocketmine.net/
 Description: PocketMine-MP for iOS
