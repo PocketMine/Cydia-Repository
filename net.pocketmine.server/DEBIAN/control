@@ -2,7 +2,7 @@ Package: net.pocketmine.server
 Name: PocketMine-MP for iOS
 Version: 1.3.12dev
 Architecture: iphoneos-arm
-Pre-Depends: curl grep coreutils findutils gzip sed shell-cmds tar
+Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5
 Description: PocketMine-MP for iOS
  PocketMine-MP is the open-source Minecraft: PE server software
