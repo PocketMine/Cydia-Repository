@@ -1,0 +1,16 @@
+Package: net.pocketmine.php-5.5
+Version: 5.5.9
+Architecture: iphoneos-arm
+Maintainer: PocketMine Team <support@pocketmine.net>
+Filename: ./net.pocketmine.php-5.5.deb
+Size: 3041862
+MD5sum: cb641eff1a64ce4d66f76859606005b3
+SHA1: 642d658184f00391e6d1d8e0088ac03bd56a77cb
+SHA256: 0a004c4ce6aaa799d531a93583f808de14079fa456dd8934213950d9413b8082
+Section: Development
+Homepage: http://www.pocketmine.net/
+Description: PHP binaries used by PocketM
+ The PHP binaries used to run a PocketMine-MP on your iDevice.
+Author: PocketMine Team <support@pocketmine.net>
+Name: PHP 5.5 for PocketMine-MP
+
