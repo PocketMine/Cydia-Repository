@@ -14,3 +14,22 @@ Description: PHP binaries used by PocketM
 Author: PocketMine Team <support@pocketmine.net>
 Name: PHP 5.5 for PocketMine-MP
 
+Package: net.pocketmine.server
+Version: 1.3.12dev
+Architecture: iphoneos-arm
+Maintainer: PocketMine Team <support@pocketmine.net>
+Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
+Depends: net.pocketmine.php-5.5
+Filename: ./net.pocketmine.server.deb
+Size: 1622
+MD5sum: e018e8bd9a7dfc1f481228b1509f14b9
+SHA1: e7686fe66b9fa79a99fad68acfddd7a5c5032184
+SHA256: 3fac885288ab099e2b19cc7ced1badde886856f4be487b329c8f7126c6704eb6
+Section: Tools
+Homepage: http://www.pocketmine.net/
+Description: PocketMine-MP for iOS
+ PocketMine-MP is the open-source Minecraft: PE server software
+Tag: purpose::console
+Author: PocketMine Team <support@pocketmine.net>
+Name: PocketMine-MP for iOS
+
