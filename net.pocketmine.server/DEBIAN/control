@@ -5,9 +5,12 @@ Architecture: iphoneos-arm
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5, screen
 Description: PocketMine-MP for iOS
+ PocketMine-MP is the open-source server software for Minecraft: Pocket Edition.
+ This package installs the latest version into /var/mobile/Media/PocketMine-MP/
+ You will need access to the Terminal to run this server, you can get it on Cydia.
 Homepage: http://www.pocketmine.net/
 Maintainer: PocketMine Team <support@pocketmine.net>
 Author: PocketMine Team <support@pocketmine.net>
 Section: Utilities
-Icon: http://cydia.pocketmine.net/CydiaIcon.png
+Icon: file:///var/mobile/Applications/0C881873-C10F-44EA-BC0E-1714E1EA384A/minecraftpe.app/panorama_2.png
 Tag: purpose::console

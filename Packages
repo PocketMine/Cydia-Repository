@@ -5,9 +5,9 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Replaces: php
 Filename: ./net.pocketmine.php-5.5.deb
 Size: 3041926
-MD5sum: 985fd0de9979f47fc7ce53301602b730
-SHA1: ebc03459c7743a902c43bf295e080ba6f3d85aca
-SHA256: 6b21ef367330b4082960ccb59b4127527dbfcf98d6229cc57ad231a2e8ede12e
+MD5sum: 5e2ac6f6993966b8ea786373cd5b9a54
+SHA1: d128cfb58532b21825cabf2d4a908416c17e1668
+SHA256: 1254afa8e1d5ab56abc015b3e4fb79d3484fa67a9862c3f89be7721002df108e
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: PHP binaries for PocketMine
@@ -22,15 +22,18 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5, screen
 Filename: ./net.pocketmine.server.deb
-Size: 1666
-MD5sum: 4ae3eaccb552897a8891e44cdae36b6c
-SHA1: 470fb39a9a38da243d28ce0a31473dde17b435ee
-SHA256: 34820d9ac7b64ef840cc065c0b7011ddd1677be14039fe0d216a7dd99ec75118
+Size: 1838
+MD5sum: 8cd5328cb2bd937073a5a9cdee6f669a
+SHA1: be4ae2da750a2aa0825200213316c057623d4526
+SHA256: 273b5c7e0fa8a94c68ce3abc363b683d87eee62bb8ab72522bd737c132fc8bbb
 Section: Utilities
 Homepage: http://www.pocketmine.net/
 Description: PocketMine-MP for iOS
+ PocketMine-MP is the open-source server software for Minecraft: Pocket Edition.
+ This package installs the latest version into /var/mobile/Media/PocketMine-MP/
+ You will need access to the Terminal to run this server, you can get it on Cydia.
 Tag: purpose::console
 Author: PocketMine Team <support@pocketmine.net>
-Icon: http://cydia.pocketmine.net/CydiaIcon.png
+Icon: file:///var/mobile/Applications/0C881873-C10F-44EA-BC0E-1714E1EA384A/minecraftpe.app/panorama_2.png
 Name: PocketMine-MP for iOS
 
