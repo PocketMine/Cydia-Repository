@@ -1,0 +1,7 @@
+Origin: PocketMine Repository
+Label: PocketMine Repository
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Description: Repository that contains binaries needed by PocketMine-MP to run
