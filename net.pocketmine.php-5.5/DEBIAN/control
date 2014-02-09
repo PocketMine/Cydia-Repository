@@ -3,7 +3,6 @@ Name: PHP 5.5 for PocketMine-MP
 Version: 5.5.9
 Architecture: iphoneos-arm
 Description: PHP binaries for PocketMine
- The PHP binaries used to run a PocketMine-MP on your iDevice.
 Homepage: http://www.pocketmine.net/
 Maintainer: PocketMine Team <support@pocketmine.net>
 Author: PocketMine Team <support@pocketmine.net>

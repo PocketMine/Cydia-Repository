@@ -5,7 +5,6 @@ Architecture: iphoneos-arm
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5
 Description: PocketMine-MP for iOS
- PocketMine-MP is the open-source Minecraft: PE server software
 Homepage: http://www.pocketmine.net/
 Maintainer: PocketMine Team <support@pocketmine.net>
 Author: PocketMine Team <support@pocketmine.net>
