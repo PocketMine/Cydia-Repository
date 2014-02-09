@@ -1,0 +1,4 @@
+#!/bin/sh
+killall php
+rm -rf /var/mobile/Media/PocketMine-MP
+exit 0
