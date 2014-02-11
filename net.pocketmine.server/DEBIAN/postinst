@@ -1,6 +1,6 @@
 #!/bin/sh
 cd /var/mobile/Media/PocketMine-MP
-./installer.sh -uv Alpha_1.3.12
+./installer.sh -v Alpha_1.3.12
 chown -R mobile:mobile /var/mobile/Media/PocketMine-MP
 chmod -R 0777 /var/mobile/Media/PocketMine-MP
 exit 0
