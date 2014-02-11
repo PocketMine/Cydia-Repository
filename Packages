@@ -5,9 +5,9 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Replaces: php
 Filename: ./net.pocketmine.php-5.5.deb
 Size: 3041938
-MD5sum: cec41f1edd2e1612b697772518a20876
-SHA1: 55ede9facb989a9e3c640a83cc04eeeb10f35ae7
-SHA256: 8bf6b95ec29df07034bddb74985c54f83c50139016699727d1f641d8c4d730aa
+MD5sum: e2b6f24c6f333898c4418df5586d4aaf
+SHA1: 68d75ad75662e500d7a1d665ce9756e8b82c2f3a
+SHA256: af966530eea29a5f4b88130d276e4c5d77d3929caf5d23156b1b96fbb22529a9
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: PHP binaries for PocketMine
@@ -22,10 +22,10 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5, screen
 Filename: ./net.pocketmine.server.deb
-Size: 1830
-MD5sum: 61554b0e2b80d07093def537df114a00
-SHA1: 2f764ead9ab9c611b1fba1e3e9ed6e8841f6295d
-SHA256: 325cb5df5efbd2c5c6fe73954e8c9c6635f7cacf927e11afaf3d7b626e9a215c
+Size: 1834
+MD5sum: 22c241a8a27f460833819385cf3a289e
+SHA1: 36b782906572f1dceffa0154048ccbf82b1d4fbf
+SHA256: 342fdea9b03c22aef52eb504db23c9f63816723f54d64834402a09b4f0461de9
 Section: Utilities
 Homepage: http://www.pocketmine.net/
 Description: PocketMine-MP for iOS
