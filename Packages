@@ -32,25 +32,6 @@ Tag: purpose::console, role::developer
 Author: PocketMine Team <support@pocketmine.net>
 Name: PHP 5.5 for PocketMine-MP
 
-Package: net.pocketmine.php-5.5-opcache
-Version: 5.5.9
-Architecture: iphoneos-arm
-Maintainer: PocketMine Team <support@pocketmine.net>
-Pre-Depends: net.pocketmine.php-5.5
-Filename: ./net.pocketmine.php-5.5-opcache.deb
-Size: 52476
-MD5sum: 7213b6eb4f9501e672ca2cc606773ba2
-SHA1: 2fc8d5a797a046f61c8e0b888631f7894dcc534c
-SHA256: 39dedf9a4c6bd636eb2919bb0bd0708a2745a4c403cc08b06cec93cd3be0493a
-Section: Development
-Homepage: http://www.pocketmine.net/
-Description: Faster PHP execution
- Run PocketMine-MP with this PHP extension.
- It optimizes the opcodes (program instructions) to waste less cycles.
-Tag: purpose::console, role::developer
-Author: PocketMine Team <support@pocketmine.net>
-Name: PHP 5.5 OPCache extension
-
 Package: net.pocketmine.server
 Version: 1.3.12
 Architecture: iphoneos-arm
