@@ -1,13 +1,30 @@
+Package: net.pocketmine.libyaml
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: PocketMine Team <support@pocketmine.net>
+Filename: ./net.pocketmine.libyaml.deb
+Size: 57490
+MD5sum: 5648695efc1293358453b220ac448f8f
+SHA1: d002b29322c527a2b1b1c49c7d9cab25c217858c
+SHA256: efd2974ef45397763e652f0f8574724d57a12ceefa7c2cc3d927eb21876f098d
+Section: Development
+Homepage: http://www.pocketmine.net/
+Description: Work with YAML files
+Tag: purpose::console, role::developer
+Author: PocketMine Team <support@pocketmine.net>
+Name: libyaml
+
 Package: net.pocketmine.php-5.5
 Version: 5.5.9
 Architecture: iphoneos-arm
 Maintainer: PocketMine Team <support@pocketmine.net>
+Depends: net.pocketmine.libyaml, net.pocketmine.zlib, curl
 Replaces: php
 Filename: ./net.pocketmine.php-5.5.deb
-Size: 3023748
-MD5sum: cad0f77ce6a6cf6041e08ca28acbb13b
-SHA1: f808c586c394bfa7c3e48bdd65b5bc8cdf79e629
-SHA256: 0fb5ae0269ba021faab6d98acfa05cdc330c31c2a225c229a8b1180e1bb45820
+Size: 2694610
+MD5sum: efc26c96450f3d98010fbca32612acae
+SHA1: 7af23b44cf20e03455b970801a5655d33c1e8b93
+SHA256: 64bc34696c7c3f03aaca0d957577a56c7ef261914aa60d4b424ede3c0a183398
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: PHP binaries for PocketMine
@@ -22,9 +39,9 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Pre-Depends: net.pocketmine.php-5.5
 Filename: ./net.pocketmine.php-5.5-opcache.deb
 Size: 52476
-MD5sum: 1c57862925d99bd2b84642603abf1eaa
-SHA1: 940b562cbdf462670a1bb74baef8be8477179753
-SHA256: 063df7f4df146ba618cb216c0ad4f5a52eb20c556a974067200d6c519c229a6c
+MD5sum: 7213b6eb4f9501e672ca2cc606773ba2
+SHA1: 2fc8d5a797a046f61c8e0b888631f7894dcc534c
+SHA256: 39dedf9a4c6bd636eb2919bb0bd0708a2745a4c403cc08b06cec93cd3be0493a
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: Faster PHP execution
@@ -42,9 +59,9 @@ Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5, screen
 Filename: ./net.pocketmine.server.deb
 Size: 1826
-MD5sum: c2c2a9dc6aa3068f8ac02e9409ffa34c
-SHA1: 04fddccb0c7403cfbb8e95e89ae5565d0c1d64dc
-SHA256: 3742b16bdea27e8c5c61246bd25bfdf10f350699eb03a9d01bfa00c26b922d22
+MD5sum: 1589db2184094a520e9bd145b3a9b881
+SHA1: 9bd33f73c3ff399c9b943379972257fe669abcf5
+SHA256: 69b9885edb4cb6c4aed2ea757b6c716d39b940bd25e9f72c5272f2087d6d705d
 Section: Utilities
 Homepage: http://www.pocketmine.net/
 Description: PocketMine-MP for iOS
@@ -55,4 +72,21 @@ Tag: purpose::console
 Author: PocketMine Team <support@pocketmine.net>
 Icon: file:///var/mobile/Applications/0C881873-C10F-44EA-BC0E-1714E1EA384A/minecraftpe.app/panorama_2.png
 Name: PocketMine-MP for iOS
+
+Package: net.pocketmine.zlib
+Version: 1.2.8
+Architecture: iphoneos-arm
+Maintainer: PocketMine Team <support@pocketmine.net>
+Filename: ./net.pocketmine.zlib.deb
+Size: 120166
+MD5sum: 7b8b956e22ad1994a5abdb81c00607c5
+SHA1: 74323c2ca259aec2b692f9c24a3083e5413c3fb0
+SHA256: 880bad28e55253dd316843925e63a8c0aa029cd93a2d7d395b48ddbe75bb98c6
+Section: Development
+Homepage: http://www.pocketmine.net/
+Description: zlib compression lib
+ A Massively Spiffy Yet Delicately Unobtrusive Compression Library
+Tag: purpose::console, role::developer
+Author: PocketMine Team <support@pocketmine.net>
+Name: zlib
 
