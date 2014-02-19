@@ -1,0 +1,11 @@
+Package: net.pocketmine.zlib
+Name: zlib
+Version: 1.2.8
+Architecture: iphoneos-arm
+Description: zlib compression lib
+ A Massively Spiffy Yet Delicately Unobtrusive Compression Library
+Homepage: http://www.pocketmine.net/
+Maintainer: PocketMine Team <support@pocketmine.net>
+Author: PocketMine Team <support@pocketmine.net>
+Section: Development
+Tag: purpose::console, role::developer

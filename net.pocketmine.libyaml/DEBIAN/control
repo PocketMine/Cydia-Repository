@@ -1,0 +1,10 @@
+Package: net.pocketmine.libyaml
+Name: libyaml
+Version: 0.1.4
+Architecture: iphoneos-arm
+Description: Work with YAML files
+Homepage: http://www.pocketmine.net/
+Maintainer: PocketMine Team <support@pocketmine.net>
+Author: PocketMine Team <support@pocketmine.net>
+Section: Development
+Tag: purpose::console, role::developer

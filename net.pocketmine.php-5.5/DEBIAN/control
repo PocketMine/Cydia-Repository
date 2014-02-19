@@ -1,6 +1,7 @@
 Package: net.pocketmine.php-5.5
 Name: PHP 5.5 for PocketMine-MP
 Version: 5.5.9
+Depends: net.pocketmine.libyaml, net.pocketmine.zlib, curl
 Architecture: iphoneos-arm
 Description: PHP binaries for PocketMine
 Homepage: http://www.pocketmine.net/
