@@ -1,23 +1,23 @@
 #! /bin/sh
 
 SED="/opt/local/bin/gsed"
-prefix="/Users/macintyre/Desktop/PM-Bin-PHP/bin/php5"
-datarootdir="/Users/macintyre/Desktop/PM-Bin-PHP/bin/php5/php"
-exec_prefix="/Users/macintyre/Desktop/PM-Bin-PHP/bin/php5"
+prefix="/PocketMine-MP/ios/bin/php5"
+datarootdir="/PocketMine-MP/ios/bin/php5/php"
+exec_prefix="/PocketMine-MP/ios/bin/php5"
 version="5.5.9"
 vernum="50509"
 include_dir="${prefix}/include/php"
 includes="-I$include_dir -I$include_dir/main -I$include_dir/TSRM -I$include_dir/Zend -I$include_dir/ext -I$include_dir/ext/date/lib"
-ldflags=" -L/Users/macintyre/Desktop/PM-Bin-PHP/install_data/php/ext/zlib/lib -L/Users/macintyre/Desktop/PM-Bin-PHP/install_data/php/ext/curl/lib -L/Users/macintyre/Desktop/PM-Bin-PHP/install_data/php/ext/yaml/lib"
+ldflags=" -L/PocketMine-MP/ios/bin/php5/lib"
 libs="  -lz -lyaml -lcurl -lz -lm -lpthread -ldl -lresolv -lcurl -lz "
-extension_dir='/Users/macintyre/Desktop/PM-Bin-PHP/bin/php5/lib/php/extensions/no-debug-zts-20121212'
+extension_dir='/PocketMine-MP/ios/bin/php5/lib/php/extensions/no-debug-zts-20121212'
 man_dir=`eval echo ${datarootdir}/man`
 program_prefix="arm-apple-darwin10-"
 program_suffix=""
 exe_extension=""
 php_cli_binary=NONE
 php_cgi_binary=NONE
-configure_options=" '--enable-inline-optimization' '--prefix=/Users/macintyre/Desktop/PM-Bin-PHP/bin/php5' '--exec-prefix=/Users/macintyre/Desktop/PM-Bin-PHP/bin/php5' '--with-curl=/Users/macintyre/Desktop/PM-Bin-PHP/install_data/php/ext/curl' '--with-zlib=/Users/macintyre/Desktop/PM-Bin-PHP/install_data/php/ext/zlib' '--with-zlib-dir=/Users/macintyre/Desktop/PM-Bin-PHP/install_data/php/ext/zlib' '--with-yaml=/Users/macintyre/Desktop/PM-Bin-PHP/install_data/php/ext/yaml' '--without-libedit' '--disable-libxml' '--disable-xml' '--disable-dom' '--disable-simplexml' '--disable-xmlreader' '--disable-xmlwriter' '--disable-cgi' '--disable-session' '--disable-debug' '--disable-phar' '--disable-pdo' '--without-pear' '--without-iconv' '--without-pdo-sqlite' '--enable-ctype' '--enable-sockets' '--enable-shared=no' '--enable-static=yes' '--enable-shmop' '--enable-pcntl' '--enable-pthreads' '--enable-maintainer-zts' '--enable-zend-signals' '--enable-bcmath' '--enable-cli' '--enable-zip' '--with-zend-vm=GOTO' '--host=arm-apple-darwin10' '--target=arm-apple-darwin10' '--enable-opcache=no'"
+configure_options=" '--disable-inline-optimization' '--prefix=/PocketMine-MP/ios/bin/php5' '--exec-prefix=/PocketMine-MP/ios/bin/php5' '--with-curl=/PocketMine-MP/ios/bin/php5' '--with-zlib=/PocketMine-MP/ios/bin/php5' '--with-yaml=/PocketMine-MP/ios/bin/php5' '--without-readline' '--without-libedit' '--disable-libxml' '--disable-xml' '--disable-dom' '--disable-simplexml' '--disable-xmlreader' '--disable-xmlwriter' '--disable-cgi' '--disable-session' '--disable-debug' '--disable-phar' '--disable-pdo' '--without-pear' '--without-iconv' '--without-pdo-sqlite' '--enable-ctype' '--enable-sockets' '--enable-shared=no' '--enable-static=yes' '--enable-shmop' '--enable-pcntl' '--enable-pthreads' '--enable-maintainer-zts' '--enable-zend-signals' '--without-mysqli' '--enable-embedded-mysqli' '--enable-bcmath' '--enable-cli' '--enable-zip' '--with-zend-vm=GOTO' '--host=arm-apple-darwin10' '--target=arm-apple-darwin10' '--enable-opcache=yes'"
 php_sapis=" cli"
 
 # Set php_cli_binary and php_cgi_binary if available

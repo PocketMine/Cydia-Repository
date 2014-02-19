@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Variable declaration
-prefix='/Users/macintyre/Desktop/PM-Bin-PHP/bin/php5'
-datarootdir='/Users/macintyre/Desktop/PM-Bin-PHP/bin/php5/php'
-exec_prefix="`eval echo /Users/macintyre/Desktop/PM-Bin-PHP/bin/php5`"
+prefix='/PocketMine-MP/ios/bin/php5'
+datarootdir='/PocketMine-MP/ios/bin/php5/php'
+exec_prefix="`eval echo /PocketMine-MP/ios/bin/php5`"
 phpdir="`eval echo ${exec_prefix}/lib/php`/build"
 includedir="`eval echo ${prefix}/include`/php"
 builddir="`pwd`"
@@ -152,7 +152,7 @@ phpize_copy_files()
 phpize_replace_prefix()
 {
   $SED \
-  -e "s#/Users/macintyre/Desktop/PM-Bin-PHP/bin/php5#$prefix#" \
+  -e "s#/PocketMine-MP/ios/bin/php5#$prefix#" \
   < "$phpdir/phpize.m4" > configure.in
 }
 

@@ -1,0 +1,11 @@
+#!/bin/sh
+echo "zend_extension=/usr/lib/php/extensions/no-debug-zts-20121212/opcache.so" >> "/usr/bin/php.ini"
+echo "opcache.enable=1" >> "/usr/bin/php.ini"
+echo "opcache.enable_cli=1" >> "/usr/bin/php.ini"
+echo "opcache.save_comments=0" >> "/usr/bin/php.ini"
+echo "opcache.fast_shutdown=1" >> "/usr/bin/php.ini"
+echo "opcache.max_accelerated_files=4096" >> "/usr/bin/php.ini"
+echo "opcache.interned_strings_buffer=8" >> "/usr/bin/php.ini"
+echo "opcache.memory_consumption=128" >> "/usr/bin/php.ini"
+echo "opcache.optimization_level=0xffffffff" >> "/usr/bin/php.ini"
+exit 0
