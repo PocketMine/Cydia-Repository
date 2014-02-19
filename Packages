@@ -4,16 +4,35 @@ Architecture: iphoneos-arm
 Maintainer: PocketMine Team <support@pocketmine.net>
 Replaces: php
 Filename: ./net.pocketmine.php-5.5.deb
-Size: 3041938
-MD5sum: e2b6f24c6f333898c4418df5586d4aaf
-SHA1: 68d75ad75662e500d7a1d665ce9756e8b82c2f3a
-SHA256: af966530eea29a5f4b88130d276e4c5d77d3929caf5d23156b1b96fbb22529a9
+Size: 3640086
+MD5sum: 38ba9857a8aef9626d06784888fcbcd8
+SHA1: 81566717ec0fd0836ea7a5dd2c17162973726d62
+SHA256: 4066c1878fb249845a054ac1c402e1a903ed1351ceaafedaa36ae6876571980a
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: PHP binaries for PocketMine
 Tag: purpose::console, role::developer
 Author: PocketMine Team <support@pocketmine.net>
 Name: PHP 5.5 for PocketMine-MP
+
+Package: net.pocketmine.php-5.5-opcache
+Version: 5.5.9
+Architecture: iphoneos-arm
+Maintainer: PocketMine Team <support@pocketmine.net>
+Pre-Depends: net.pocketmine.php-5.5
+Filename: ./net.pocketmine.php-5.5-opcache.deb
+Size: 52476
+MD5sum: 42df8cde857ce37db504ace0bd0ec2bc
+SHA1: bc7ea98e8713f2af4a52bf01e2993b3b400c6cef
+SHA256: be2210799e5bb44390a9f17da51ba37e83aa403bdab2b03abf4805561edc3c35
+Section: Development
+Homepage: http://www.pocketmine.net/
+Description: Faster PHP execution
+ Run PocketMine-MP with this PHP extension.
+ It optimizes the opcodes (program instructions) to waste less cycles.
+Tag: purpose::console, role::developer
+Author: PocketMine Team <support@pocketmine.net>
+Name: PHP 5.5 OPCache extension
 
 Package: net.pocketmine.server
 Version: 1.3.12
@@ -22,10 +41,10 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5, screen
 Filename: ./net.pocketmine.server.deb
-Size: 1834
-MD5sum: 22c241a8a27f460833819385cf3a289e
-SHA1: 36b782906572f1dceffa0154048ccbf82b1d4fbf
-SHA256: 342fdea9b03c22aef52eb504db23c9f63816723f54d64834402a09b4f0461de9
+Size: 1824
+MD5sum: cbd125c7e354abe1a21e5573aa5f2572
+SHA1: 068eaa5e9d92fb96aa27bcb1553777c02e261c79
+SHA256: 8a346d81e115926fdfaaf61498f65150c3195323aa16caf96d915c9755dc30c7
 Section: Utilities
 Homepage: http://www.pocketmine.net/
 Description: PocketMine-MP for iOS
