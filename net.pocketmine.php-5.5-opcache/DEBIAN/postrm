@@ -1,0 +1,3 @@
+#!/bin/sh
+sed -i 's#zend_extension=/usr/lib/php/extensions/no-debug-zts-20121212/opcache.so##' /usr/bin/php.ini
+exit 0

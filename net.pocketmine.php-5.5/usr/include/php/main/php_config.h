@@ -131,7 +131,7 @@
 /* #undef COMPILE_DL_ODBC */
 
 /* Whether to build opcache as dynamic module */
-/* #undef COMPILE_DL_OPCACHE */
+#define COMPILE_DL_OPCACHE 1
 
 /* Whether to build openssl as dynamic module */
 /* #undef COMPILE_DL_OPENSSL */
@@ -1149,7 +1149,7 @@
 #define HAVE_MONETARY_H 1
 
 /* Define if you have mprotect() function */
-/* #undef HAVE_MPROTECT */
+#define HAVE_MPROTECT 1
 
 /* Define to 1 if you have the `mremap' function. */
 /* #undef HAVE_MREMAP */
@@ -2134,7 +2134,7 @@
 #define PHP_BLOWFISH_CRYPT 1
 
 /* PHP build date */
-#define PHP_BUILD_DATE "2014-02-07"
+#define PHP_BUILD_DATE "2014-02-19"
 
 /* Define if your system has fork/vfork/CreateProcess */
 #define PHP_CAN_SUPPORT_PROC_OPEN 1
