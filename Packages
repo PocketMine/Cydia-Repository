@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: PocketMine Team <support@pocketmine.net>
 Replaces: php
 Filename: ./net.pocketmine.php-5.5.deb
-Size: 3640086
-MD5sum: 38ba9857a8aef9626d06784888fcbcd8
-SHA1: 81566717ec0fd0836ea7a5dd2c17162973726d62
-SHA256: 4066c1878fb249845a054ac1c402e1a903ed1351ceaafedaa36ae6876571980a
+Size: 3023748
+MD5sum: cad0f77ce6a6cf6041e08ca28acbb13b
+SHA1: f808c586c394bfa7c3e48bdd65b5bc8cdf79e629
+SHA256: 0fb5ae0269ba021faab6d98acfa05cdc330c31c2a225c229a8b1180e1bb45820
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: PHP binaries for PocketMine
@@ -22,9 +22,9 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Pre-Depends: net.pocketmine.php-5.5
 Filename: ./net.pocketmine.php-5.5-opcache.deb
 Size: 52476
-MD5sum: 42df8cde857ce37db504ace0bd0ec2bc
-SHA1: bc7ea98e8713f2af4a52bf01e2993b3b400c6cef
-SHA256: be2210799e5bb44390a9f17da51ba37e83aa403bdab2b03abf4805561edc3c35
+MD5sum: 1c57862925d99bd2b84642603abf1eaa
+SHA1: 940b562cbdf462670a1bb74baef8be8477179753
+SHA256: 063df7f4df146ba618cb216c0ad4f5a52eb20c556a974067200d6c519c229a6c
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: Faster PHP execution
@@ -41,10 +41,10 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5, screen
 Filename: ./net.pocketmine.server.deb
-Size: 1824
-MD5sum: cbd125c7e354abe1a21e5573aa5f2572
-SHA1: 068eaa5e9d92fb96aa27bcb1553777c02e261c79
-SHA256: 8a346d81e115926fdfaaf61498f65150c3195323aa16caf96d915c9755dc30c7
+Size: 1826
+MD5sum: c2c2a9dc6aa3068f8ac02e9409ffa34c
+SHA1: 04fddccb0c7403cfbb8e95e89ae5565d0c1d64dc
+SHA256: 3742b16bdea27e8c5c61246bd25bfdf10f350699eb03a9d01bfa00c26b922d22
 Section: Utilities
 Homepage: http://www.pocketmine.net/
 Description: PocketMine-MP for iOS
