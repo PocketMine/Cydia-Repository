@@ -1,9 +1,9 @@
 Package: net.pocketmine.php-5.5-opcache
-Name: PHP OPCache for PocketMine-MP
+Name: PHP 5.5 OPCache extension
 Version: 5.5.9
 Pre-Depends: net.pocketmine.php-5.5
 Architecture: iphoneos-arm
-Description: PHP OPcache
+Description: Faster PHP execution
  Run PocketMine-MP with this PHP extension.
  It optimizes the opcodes (program instructions) to waste less cycles.
 Homepage: http://www.pocketmine.net/
