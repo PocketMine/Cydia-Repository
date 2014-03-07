@@ -2,11 +2,12 @@ Package: net.pocketmine.libyaml
 Version: 0.1.4
 Architecture: iphoneos-arm
 Maintainer: PocketMine Team <support@pocketmine.net>
+Depends: gsc.armv7
 Filename: ./net.pocketmine.libyaml.deb
-Size: 57490
-MD5sum: 5648695efc1293358453b220ac448f8f
-SHA1: d002b29322c527a2b1b1c49c7d9cab25c217858c
-SHA256: efd2974ef45397763e652f0f8574724d57a12ceefa7c2cc3d927eb21876f098d
+Size: 54384
+MD5sum: 9a7f09eb587d9e8671cb9fd80816f22f
+SHA1: 4ebccd7a8b98a927a23406065f2c9598c6a75eb1
+SHA256: d2d1b21bd5f8b0b9bff747f59ff39bfd0af457701ebd14a8739b3f8e1fa1bab0
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: Work with YAML files
@@ -15,22 +16,41 @@ Author: PocketMine Team <support@pocketmine.net>
 Name: libyaml
 
 Package: net.pocketmine.php-5.5
-Version: 5.5.9
+Version: 5.5.10
 Architecture: iphoneos-arm
 Maintainer: PocketMine Team <support@pocketmine.net>
-Depends: net.pocketmine.libyaml, net.pocketmine.zlib, curl
+Depends: net.pocketmine.libyaml, net.pocketmine.zlib, curl, gsc.armv7
 Replaces: php
 Filename: ./net.pocketmine.php-5.5.deb
-Size: 2694610
-MD5sum: efc26c96450f3d98010fbca32612acae
-SHA1: 7af23b44cf20e03455b970801a5655d33c1e8b93
-SHA256: 64bc34696c7c3f03aaca0d957577a56c7ef261914aa60d4b424ede3c0a183398
+Size: 2371966
+MD5sum: 8cefe2de12c7a556c0ea6bdb16b2db22
+SHA1: 8b582074adebdafc4391332e089e0d27027e65e0
+SHA256: 68210b04d530f39c50b60e4e1207fd20d95ecdbe6dedb7583074d732b2a41943
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: PHP binaries for PocketMine
 Tag: purpose::console, role::developer
 Author: PocketMine Team <support@pocketmine.net>
 Name: PHP 5.5 for PocketMine-MP
+
+Package: net.pocketmine.php-5.5-opcache
+Version: 5.5.9
+Architecture: iphoneos-arm
+Maintainer: PocketMine Team <support@pocketmine.net>
+Pre-Depends: net.pocketmine.php-5.5
+Filename: ./net.pocketmine.php-5.5-opcache.deb
+Size: 52476
+MD5sum: 7213b6eb4f9501e672ca2cc606773ba2
+SHA1: 2fc8d5a797a046f61c8e0b888631f7894dcc534c
+SHA256: 39dedf9a4c6bd636eb2919bb0bd0708a2745a4c403cc08b06cec93cd3be0493a
+Section: Development
+Homepage: http://www.pocketmine.net/
+Description: Faster PHP execution
+ Run PocketMine-MP with this PHP extension.
+ It optimizes the opcodes (program instructions) to waste less cycles.
+Tag: purpose::console, role::developer
+Author: PocketMine Team <support@pocketmine.net>
+Name: PHP 5.5 OPCache extension
 
 Package: net.pocketmine.server
 Version: 1.3.12
@@ -39,10 +59,10 @@ Maintainer: PocketMine Team <support@pocketmine.net>
 Pre-Depends: curl, grep, coreutils, findutils, gzip, sed, shell-cmds, tar
 Depends: net.pocketmine.php-5.5, screen
 Filename: ./net.pocketmine.server.deb
-Size: 1826
-MD5sum: 1589db2184094a520e9bd145b3a9b881
-SHA1: 9bd33f73c3ff399c9b943379972257fe669abcf5
-SHA256: 69b9885edb4cb6c4aed2ea757b6c716d39b940bd25e9f72c5272f2087d6d705d
+Size: 1830
+MD5sum: 6d754072882caf1c76d3b3e0173838f5
+SHA1: 51b69b9530ffbea81667243e3616f7f8885a05fb
+SHA256: 25dd4d8aacbeca3d479231f4b8c419ad0e8ba724e59feb21dd250f7b3f51d6ec
 Section: Utilities
 Homepage: http://www.pocketmine.net/
 Description: PocketMine-MP for iOS
@@ -58,11 +78,12 @@ Package: net.pocketmine.zlib
 Version: 1.2.8
 Architecture: iphoneos-arm
 Maintainer: PocketMine Team <support@pocketmine.net>
+Depends: gsc.armv7
 Filename: ./net.pocketmine.zlib.deb
-Size: 120166
-MD5sum: 7b8b956e22ad1994a5abdb81c00607c5
-SHA1: 74323c2ca259aec2b692f9c24a3083e5413c3fb0
-SHA256: 880bad28e55253dd316843925e63a8c0aa029cd93a2d7d395b48ddbe75bb98c6
+Size: 112742
+MD5sum: 8fe4e6e0b63810ce410a426db34e16ea
+SHA1: 920b5575e7e99c67e7f2644bf28c28596c48c496
+SHA256: 44112318afe77ef036a786a4b3529bea5be2cf3268e2d35e2808e09b25ea7432
 Section: Development
 Homepage: http://www.pocketmine.net/
 Description: zlib compression lib
