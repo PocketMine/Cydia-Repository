@@ -24,7 +24,7 @@
    +----------------------------------------------------------------------+
  */
 
-/* $Id: d53c3b6c5ef3b2a2ba5dcbefb2fac1c9ae50957a $ */
+/* $Id: 305b48d9335b7fa38b96d023fd21bdbb2e6e52a9 $ */
 
 /* Sanity check to ensure that pcre extension needed by this script is available.
  * In the event it is not, print a nice error message indicating that this script will
@@ -581,7 +581,7 @@ if (isset($argc) && $argc > 1) {
 					if (!$valgrind_header) {
 						error("Valgrind returned no version info, cannot proceed.\nPlease check if Valgrind is installed.");
 					} else {
-						$valgrind_version = preg_replace("/valgrind-([0-9])\.([0-9])\.([0-9]+)([.-\w]+)?(\s+)/", '$1$2$3', $valgrind_header, 1, $replace_count);
+						$valgrind_version = preg_replace("/valgrind-(\d)\.(\d)\.(\d+)([.\w_-]+)?(\s+)/", '$1$2$3', $valgrind_header, 1, $replace_count);
 						if ($replace_count != 1 || !is_numeric($valgrind_version)) {
 							error("Valgrind returned invalid version info (\"$valgrind_header\"), cannot proceed.");
 						}
@@ -662,7 +662,7 @@ if (isset($argc) && $argc > 1) {
 					$html_output = is_resource($html_file);
 					break;
 				case '--version':
-					echo '$Id: d53c3b6c5ef3b2a2ba5dcbefb2fac1c9ae50957a $' . "\n";
+					echo '$Id: 305b48d9335b7fa38b96d023fd21bdbb2e6e52a9 $' . "\n";
 					exit(1);
 
 				default:

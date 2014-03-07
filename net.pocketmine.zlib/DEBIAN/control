@@ -1,6 +1,7 @@
 Package: net.pocketmine.zlib
 Name: zlib
 Version: 1.2.8
+Depends: gsc.armv7
 Architecture: iphoneos-arm
 Description: zlib compression lib
  A Massively Spiffy Yet Delicately Unobtrusive Compression Library

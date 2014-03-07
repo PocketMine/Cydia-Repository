@@ -1,6 +1,7 @@
 Package: net.pocketmine.libyaml
 Name: libyaml
 Version: 0.1.4
+Depends: gsc.armv7
 Architecture: iphoneos-arm
 Description: Work with YAML files
 Homepage: http://www.pocketmine.net/

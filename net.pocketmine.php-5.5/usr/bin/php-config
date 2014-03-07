@@ -4,8 +4,8 @@ SED="/opt/local/bin/gsed"
 prefix="/PocketMine-MP/ios/bin/php5"
 datarootdir="/PocketMine-MP/ios/bin/php5/php"
 exec_prefix="/PocketMine-MP/ios/bin/php5"
-version="5.5.9"
-vernum="50509"
+version="5.5.10"
+vernum="50510"
 include_dir="${prefix}/include/php"
 includes="-I$include_dir -I$include_dir/main -I$include_dir/TSRM -I$include_dir/Zend -I$include_dir/ext -I$include_dir/ext/date/lib"
 ldflags=" -L/PocketMine-MP/ios/bin/php5/lib"
@@ -17,7 +17,7 @@ program_suffix=""
 exe_extension=""
 php_cli_binary=NONE
 php_cgi_binary=NONE
-configure_options=" '--disable-inline-optimization' '--prefix=/PocketMine-MP/ios/bin/php5' '--exec-prefix=/PocketMine-MP/ios/bin/php5' '--with-curl=/PocketMine-MP/ios/bin/php5' '--with-zlib=/PocketMine-MP/ios/bin/php5' '--with-yaml=/PocketMine-MP/ios/bin/php5' '--without-readline' '--without-libedit' '--disable-libxml' '--disable-xml' '--disable-dom' '--disable-simplexml' '--disable-xmlreader' '--disable-xmlwriter' '--disable-cgi' '--disable-session' '--disable-debug' '--disable-phar' '--disable-pdo' '--without-pear' '--without-iconv' '--without-pdo-sqlite' '--enable-ctype' '--enable-sockets' '--enable-shared=no' '--enable-static=yes' '--enable-shmop' '--enable-pcntl' '--enable-pthreads' '--enable-maintainer-zts' '--enable-zend-signals' '--without-mysqli' '--enable-embedded-mysqli' '--enable-bcmath' '--enable-cli' '--enable-zip' '--with-zend-vm=GOTO' '--host=arm-apple-darwin10' '--target=arm-apple-darwin10' '--enable-opcache=yes'"
+configure_options=" '--enable-inline-optimization' '--prefix=/PocketMine-MP/ios/bin/php5' '--exec-prefix=/PocketMine-MP/ios/bin/php5' '--with-curl=/PocketMine-MP/ios/bin/php5' '--with-zlib=/PocketMine-MP/ios/bin/php5' '--with-yaml=/PocketMine-MP/ios/bin/php5' '--without-readline' '--without-libedit' '--disable-libxml' '--disable-xml' '--disable-dom' '--disable-simplexml' '--disable-xmlreader' '--disable-xmlwriter' '--disable-cgi' '--disable-session' '--disable-debug' '--disable-pdo' '--without-pear' '--without-iconv' '--without-pdo-sqlite' '--enable-phar' '--enable-ctype' '--enable-sockets' '--enable-shared=no' '--enable-static=yes' '--enable-shmop' '--enable-pcntl' '--enable-pthreads' '--enable-maintainer-zts' '--enable-zend-signals' '--without-mysqli' '--enable-embedded-mysqli' '--enable-bcmath' '--enable-cli' '--enable-zip' '--with-zend-vm=GOTO' '--host=arm-apple-darwin10' '--target=arm-apple-darwin10' '--enable-opcache=no'"
 php_sapis=" cli"
 
 # Set php_cli_binary and php_cgi_binary if available
